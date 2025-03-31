@@ -22,7 +22,7 @@ def render_form():
         st.markdown('<div class="form-container">', unsafe_allow_html=True)
         
         # Replace this URL with your actual n8n webhook form URL
-        n8n_form_url = "https://rubencasillas.app.n8n.cloud/form-test/3e762442-715e-47e1-a65e-ae92085857ae"
+        n8n_form_url = "https://rubencasillas.app.n8n.cloud/form/3e762442-715e-47e1-a65e-ae92085857ae"
         
         # Embed the n8n form using an iframe
         components.iframe(
