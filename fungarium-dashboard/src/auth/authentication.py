@@ -16,7 +16,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Database setup with PostgreSQL
-DATABASE_URL = os.getenv('DATABASE_URL')
+# DATABASE_URL = os.getenv('DATABASE_URL')
+DATABASE_URL = 'https://rubencasillas.app.n8n.cloud/webhook/fungarium-agent'
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in environment variables")
 
