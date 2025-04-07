@@ -18,10 +18,11 @@ load_dotenv()
 # Database setup with PostgreSQL
 # DATABASE_URL = os.getenv('DATABASE_URL')
 DATABASE_URL = 'https://rubencasillas.app.n8n.cloud/webhook/fungarium-agent'
+
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in environment variables")
 
-logger.info(f"Connecting to database... {DATABASE_URL.split('@')[1]}")  # Log URL without credentials
+logger.info(f"Connecting to database... {DATABASE_URL}")  # Log URL without credentials
 
 try:
     engine = create_engine(
