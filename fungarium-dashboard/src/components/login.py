@@ -143,8 +143,8 @@ def login_page():
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-            logo_path = "src/visual_assets/FullLogoGroundedRoots.png"
-            st.image(logo_path, width=500)
+            # logo_path = "src/visual_assets/FullLogoGroundedRoots.png"
+            # st.image(logo_path, width=500)
             st.markdown('</div>', unsafe_allow_html=True)
 
         # Login container
