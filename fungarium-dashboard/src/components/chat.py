@@ -4,7 +4,7 @@ import uuid
 from typing import Optional
 
 # Constants
-N8N_WEBHOOK_URL = "https://rubencasillas.app.n8n.cloud/webhook/fungarium-agent"
+N8N_WEBHOOK_URL = "https://rubencasillas.app.n8n.cloud/webhook/fungarium-agent_2"
 BEARER_TOKEN = "tech4Life@all"
 
 def get_session_id() -> str:
