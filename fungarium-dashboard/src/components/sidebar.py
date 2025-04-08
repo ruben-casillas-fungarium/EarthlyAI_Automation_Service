@@ -60,7 +60,7 @@ def render_sidebar():
 
     with st.sidebar:
         # Logo section
-        st.image("src/assets/LogoMarkGroundedRoots.png", width=500)
+        st.image("src/visual_assets/LogoMarkGroundedRoots.png", width=500)
         # st.markdown("---")
         
         # User info section with styled containers
