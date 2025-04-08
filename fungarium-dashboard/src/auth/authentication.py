@@ -17,7 +17,7 @@ load_dotenv()
 
 # Database setup with PostgreSQL
 # DATABASE_URL = os.getenv('DATABASE_URL')
-DATABASE_URL = 'https://rubencasillas.app.n8n.cloud/webhook/fungarium-agent'
+DATABASE_URL = 'postgresql://postgres:zFlVCAwiPhjleNqAlIkQlhcXUgoztkyU@metro.proxy.rlwy.net:15223/railway'
 
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in environment variables")
